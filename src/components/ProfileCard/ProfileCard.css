@@ -1,16 +1,71 @@
 .profileCard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     overflow: hidden;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cardColor);
+    border-radius: 20px;
 }
 .p-perfil{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    position: relative;
+}
+.p-perfil .cover{
+    position: relative;
+    height: 120px;
+}
+.zendaya{
+    position: relative;
+    top: -2.5rem;
+}
+.zendaya>img{
+    height: 5rem;
+    border-radius: 50%;
+    box-shadow: var(--profileShadow);
+}
+.follower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.datos{
+    display: flex;
+    align-items:center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+    top: -1.5rem;
 }
-.cover{
-    width: 18rem;
+.f-data{
+    display: flex;
+    gap: 1.3rem;
 }
+.name{
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+.flow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.myProfile{
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.myProfile:hover{
+    cursor: pointer;
+}
+hr {
+    border: 1px solid var(--hrColor);
+    background-color: var(--hrColor);
+  }

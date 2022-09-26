@@ -1,0 +1,68 @@
+.postShare{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: var(--cardColor);
+    border-radius: 20px;
+    gap: 1.5rem;
+}
+.happening{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.happening>input{
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    width: 41rem;
+    background-color: var(--inputColor);
+}
+.happening>input::placeholder{
+    font-size: 12pt;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.h-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    overflow: hidden;
+    
+}
+.h-img>img{
+    height: 50px;
+    width: 50px;
+}
+.share{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3.5rem;
+    padding-right: 1rem;
+}
+.share:hover{
+    cursor: pointer;
+}
+.p-icons{
+    display: flex;
+    align-items: center;
+}
+.previewImage{
+    position: relative;
+}
+.previewImage>svg{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+.previewImage>img{
+    width: 100%;
+    max-width: 20rem;
+    object-fit: cover;
+    border-radius: 20px;
+}
+

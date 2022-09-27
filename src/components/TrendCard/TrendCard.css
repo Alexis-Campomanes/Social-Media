@@ -1,0 +1,17 @@
+.TrendCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 20px;
+}
+.trend{
+    display: flex;
+    flex-direction: column;
+}
+.shares{
+    font-size: 10pt;
+    padding-top: 0.5rem;
+}

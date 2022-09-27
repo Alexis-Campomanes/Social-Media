@@ -1,13 +1,15 @@
 import React from 'react';
 import PostShare from '../PostShare/PostShare';
-import './PostSide.css';
-import Postpic from '../../img/postpic1.jpg';
 import PostCard from '../PostCard/PostCard';
+import './PostSide.css';
+
+
 
 const PostSide = () => {
     return (
         <div className='PostSide'>
           <PostShare />
+          <PostCard />
         </div>
     );
 }
